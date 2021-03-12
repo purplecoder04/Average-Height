@@ -6,7 +6,13 @@ for n in range(0, len(student_heights)):
 
 
 #Write your code below this row 👇
-
+total_students= 0
+total_height= 0
+for i in student_heights:
+  total_students+=1
+  total_height+= i
+avg=round(total_height/total_students)
+print(avg)
 
 
 
